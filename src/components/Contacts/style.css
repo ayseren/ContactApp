@@ -1,0 +1,42 @@
+#contact_container{
+    width: 400px;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+input{
+    width: 100%;
+    padding: 5px;
+    box-sizing: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.list{
+    margin: 15px 0;
+}
+
+.list > li {
+    background-color: burlywood;
+    padding: 5px;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0;
+}
+
+.button > button {
+    padding: 5px;
+    width: 60px;
+}
